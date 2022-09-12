@@ -1,5 +1,9 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Order from './pages/Order/Order';
+import Products from './pages/Products/Products';
+import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 
 function App() {
   return (
