@@ -2,17 +2,10 @@ import styled from "styled-components";
 
 export const AboutUsSec = styled.div`
   padding: 100px 0px;
-  background: #897fb1;
-  background-image: url('images/about-us/mandala-bg.webp');
 `;
 
 export const AboutUsTitle = styled.img`
   width: 100%;
-`;
-
-export const AboutUsWrapper = styled.div`
-  object-fit: contain;
-  padding: 0px 10px;
 `;
 
 export const AboutUsText = styled.h3`
