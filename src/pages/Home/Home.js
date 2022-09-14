@@ -1,11 +1,15 @@
 import React from "react";
 import AboutUs from '../../components/AboutUs/AboutUs';
-
+import OrderInformation from "../../components/OrderInformation/OrderInformation";
+import '../../App.css';
 
 const Home = () => {
   return (
     <>
-      <AboutUs />
+      <div className="home-background">
+        <AboutUs />
+        <OrderInformation />
+      </div>
     </>
   )
 };
