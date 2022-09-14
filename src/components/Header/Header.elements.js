@@ -19,9 +19,8 @@ export const HeaderLogo = styled.img`
 export const HeaderTitle = styled.a`
   font-size: 25px;
   margin-right: 1rem;
-
+  color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.7);
   cursor: pointer;
 
   &:hover {
