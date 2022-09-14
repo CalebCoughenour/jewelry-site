@@ -7,14 +7,14 @@ import { HeaderEmail, HeaderLogo, HeaderTitle } from './Header.elements';
 const Header = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="md">
+      <Navbar collapseOnSelect expand="md" style={{ background: '#7368A3', borderBottom: '1px solid black'}} >
         <Container>
           <HeaderLogo src='images/logo/mandala-icon-footer-header.webp' alt='A hand drawn mandala' />
-          <HeaderTitle>Bodhi Jewerly</HeaderTitle>
+          <HeaderTitle>Bodhi Jewelry</HeaderTitle>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/" >Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/products">Products</Nav.Link>
               <Nav.Link href="/order">Order</Nav.Link>
             </Nav>

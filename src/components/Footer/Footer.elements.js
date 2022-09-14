@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterSec = styled.div`
   padding-bottom: 15px;
-  background: gray;
+  background: #7368A3;
   border-top: 1px solid black;
   width: 100%;
 `;

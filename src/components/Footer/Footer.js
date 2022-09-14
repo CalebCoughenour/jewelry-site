@@ -13,7 +13,7 @@ const Footer = () => {
           <Row style={{ textAlign: 'center' }}>
             <Col xl={true}>
               <FooterLogo src='images/logo/mandala-icon-footer-header.webp' alt='A hand drawn mandala' />            
-              <FooterTitle>Bodhi Jewerly</FooterTitle>
+              <FooterTitle>Bodhi Jewelry</FooterTitle>
             </Col>
             <Col xl={true} style={{ marginTop: '1.5rem'}}>
               <FooterEmail href="mailto: mette@BodhiJewelry.net">mette@BodhiJewelry.net</FooterEmail>
