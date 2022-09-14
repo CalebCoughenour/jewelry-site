@@ -11,7 +11,7 @@ const Order = () => {
         <h3>How to Order: </h3>
       <div className="Instructions">
         <ol>
-          <li>Download PDF Form below</li>
+          <li>Download PDF Form Here: <a href="http://bodhijewelry.net/media/6523558b99acea0bffff81c7ffffe905.pdf" target ="_blank"><i class="fa-solid fa-download"></i></a></li>
           <li>Fill form out</li>
           <li>Email form to mette@BohdiJewelry.net</li>
         </ol>
@@ -25,5 +25,6 @@ const Order = () => {
     </>
   )
 };
+
 
 export default Order;
