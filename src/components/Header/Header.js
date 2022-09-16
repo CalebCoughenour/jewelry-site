@@ -2,6 +2,8 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { HeaderEmail, HeaderLogo, HeaderTitle } from './Header.elements';
 import { AiOutlineMail} from 'react-icons/ai';
 
@@ -19,7 +21,7 @@ const Header = () => {
               <Nav.Link href="/products">Products</Nav.Link>
               <Nav.Link href="/order">Order</Nav.Link>
             </Nav>
-            <AiOutlineMail />
+            <AiOutlineMail style={{ marginRight: '5px'}} />
             <HeaderEmail href="mailto: mette@BodhiJewelry.net">mette@BodhiJewelry.net</HeaderEmail>
           </Navbar.Collapse>
         </Container>
