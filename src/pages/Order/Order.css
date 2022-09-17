@@ -1,3 +1,7 @@
+.home-background {
+  background-image: url('../../../public/images/about-us/mandala-bg.webp');
+}
+
 .col-sm-3 {
   margin-left: auto;
   margin-right: auto;
@@ -7,4 +11,14 @@
 .col-6 {
   margin-left: auto;
   margin-right: auto;
+}
+
+.card {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orderImage {
+  margin-left: 25%;
 }
