@@ -25,11 +25,11 @@ const OrderInformation = () => {
                 <OrderInfoListItem><strong>*</strong> If a requested ring size or stone is unavailable, Bodhi Jewelry will use discretion in fulfilling the ring size or stone unless "No Substitution" is specified.</OrderInfoListItem>
                 <OrderInfoText style={{ marginTop: '20px' }}>TO ORDER: Download and fill the form from the <OrderFormLink href="/order">ORDER</OrderFormLink> page then fax or email your order directly to us</OrderInfoText>
               </OrderInfoList>
-              <Row style={{ textAlign: 'center' }}>
-                <Col sm={true}>
+              <Row>
+                <Col xl={true}>
                   <OrderInfoSecEmail href='mailto: mette@BodhiJewelry.com'>mette@BodhiJewelry.net</OrderInfoSecEmail>
                 </Col>
-                <Col sm={true}>
+                <Col xl={true}>
                   <OrderInfoSecPhoneNum>FAX: 810-815-0823</OrderInfoSecPhoneNum>
                 </Col>
               </Row>

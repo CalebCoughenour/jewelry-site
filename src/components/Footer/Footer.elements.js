@@ -54,10 +54,6 @@ export const FooterEmail = styled.a`
 export const FooterPhoneNumber = styled.a`
   color: black;
   text-decoration: none;
-  cursor: pointer;
-  margin-left: .5rem;
-  margin-right: .5rem;
-  display: column;
 
   &:hover {
     color: rgba(0, 0, 0, 0.6);
